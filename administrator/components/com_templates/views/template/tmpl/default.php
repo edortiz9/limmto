@@ -166,7 +166,7 @@ if ($this->type == 'image')
 					<p class="well well-small lead"><?php echo JText::sprintf('COM_TEMPLATES_TEMPLATE_FILENAME', $this->font['rel_path'], $this->template->element); ?></p>
 				<?php endif; ?>
 			</div>
-		</div>
+		</div> 
 		<div class="row-fluid">
 			<div class="span3 tree-holder">
 				<?php echo $this->loadTemplate('tree');?>
