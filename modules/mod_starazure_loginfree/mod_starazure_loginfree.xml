@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.1.0" client="site" method="upgrade">
+    <name>StarAzure Login Free</name>
+	<creationDate>28 February 2014</creationDate>
+    <author>StarAzure</author>
+	<copyright>StarAzure</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <version>1.0.0</version>
+	<authorEmail>info.starazure@gmail.com</authorEmail>
+	<authorUrl>http://www.starazure.com</authorUrl>
+    <description><![CDATA[
+        <div class="alert alert-info" style="padding: 15px;">
+		
+		<div class="container-logo">
+			<img src="http://starazure.com/images/logo.png" class="logo" />
+		</div>
+        <h1>StarAzure Login and Register</h1>
+        <p>An awesome and responsive module that will display a stylish and userfriendly login and register form.</p>
+
+       
+		<a href="http://starazure.com/docs" target="_blank" class="btn btn-warning"><i class="icon-list-view"></i> Read Documentation</a>		
+		<a href="http://starazure.com/support" target="_blank" class="btn btn-primary"><i class="icon-asterisk"></i> Get Help</a>
+		<a href="http://starazure.com/starazure-login-module" target="_blank" class="btn btn-danger"><i class="icon-stack"></i> Version Check</a>
+		<a href="http://starazure.com/starazure-login-module" target="_blank" class="btn btn-small">See Demo</a>
+		<a href="http://starazure.com/themes" target="_blank" class="btn btn-primary btn-small">StarAzure Themes</a>
+        </div>
+        ]]></description>
+    <files>
+        <filename>mod_starazure_loginfree.xml</filename>
+        <filename module="mod_starazure_loginfree">mod_starazure_loginfree.php</filename>
+		<folder>tmpl</folder>
+		<folder>asset</folder>
+		<folder>language</folder>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+    </files>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_LOGIN" />
+    	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			
+				<field
+					name="layout"
+					type="modulelayout"
+					label="Choose style"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field 
+					name="pro" 
+					type="nn_plaintext" 
+					label="Six Stunning Styles" 
+					description="Star Azure has got Six stunning Login module. Get the Pro version to get those stylish login forms. " 
+					default="Only available in PRO version" />
+				<field
+                    name="heading"
+                    type="text"
+                    default="User Login"
+                    label="Enter the Form Heading"
+                    description="Enter the heading of the login form. Example- Login, sign in, etc.. Default is 'User Login'. ">
+                </field>
+				<field
+					name="pretext"
+					type="textarea"
+					filter="safehtml"
+					cols="30"
+					rows="5"
+					label="MOD_LOGIN_FIELD_PRE_TEXT_LABEL"
+					description="MOD_LOGIN_FIELD_PRE_TEXT_DESC" />
+				<field
+					name="posttext"
+					type="textarea"
+					filter="safehtml"
+					cols="30"
+					rows="5"
+					label="MOD_LOGIN_FIELD_POST_TEXT_LABEL"
+					description="MOD_LOGIN_FIELD_POST_TEXT_DESC" />
+				<field
+					name="login"
+					type="menuitem"
+					disable="separator"
+					label="MOD_LOGIN_FIELD_LOGIN_REDIRECTURL_LABEL"
+					description="MOD_LOGIN_FIELD_LOGIN_REDIRECTURL_DESC" >
+					<option
+						value="">JDEFAULT</option>
+				</field>
+				<field
+					name="logout"
+					type="menuitem"
+					disable="separator"
+					label="MOD_LOGIN_FIELD_LOGOUT_REDIRECTURL_LABEL"
+					description="MOD_LOGIN_FIELD_LOGOUT_REDIRECTURL_DESC" >
+					<option
+						value="">JDEFAULT</option>
+				</field>
+				<field
+					name="greeting"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="MOD_LOGIN_FIELD_GREETING_LABEL"
+					description="MOD_LOGIN_FIELD_GREETING_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="font"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Load Font Awesome Font"
+					description="If your template does not support font awesome please enable this.">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="uikit"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Load Ui-Kit"
+					description="If your template does not support Ui-Kit please enable this.">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="name"
+					type="list"
+					default="0"
+					label="MOD_LOGIN_FIELD_NAME_LABEL"
+					description="MOD_LOGIN_FIELD_NAME_DESC">
+					<option
+						value="0">MOD_LOGIN_VALUE_NAME</option>
+					<option
+						value="1">MOD_LOGIN_VALUE_USERNAME</option>
+				</field>
+				<field
+					name="usesecure"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="MOD_LOGIN_FIELD_USESECURE_LABEL"
+					description="MOD_LOGIN_FIELD_USESECURE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="usetext"
+					type="list"
+					default="0"
+					label="MOD_LOGIN_FIELD_USETEXT_LABEL"
+					description="MOD_LOGIN_FIELD_USETEXT_DESC">
+					<option
+						value="0">MOD_LOGIN_VALUE_ICONS</option>
+					<option
+						value="1">MOD_LOGIN_VALUE_TEXT</option>
+				</field>
+
+			</fieldset>
+
+			<fieldset
+				name="advanced">
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
