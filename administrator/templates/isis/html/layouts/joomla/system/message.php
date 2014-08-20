@@ -13,19 +13,21 @@ $msgList = $displayData['msgList'];
 
 $alert = array('error' => 'alert-error', 'warning' => '', 'notice' => 'alert-info', 'message' => 'alert-success');
 ?>
-<div id="system-message-container">
-	<?php if (is_array($msgList) && $msgList) : ?>
-		<button type="button" class="close" data-dismiss="alert">&times;</button>
-		<?php foreach ($msgList as $type => $msgs) : ?>
-			<div class="alert <?php echo $alert[$type]; ?>">
-                                <span class="login-status-icon"></span>
-				<h4 class="alert-heading"><?php echo JText::_($type); ?></h4>
-				<?php if ($msgs) : ?>
-					<?php foreach ($msgs as $msg) : ?>
-						<p><?php echo $msg; ?></p>
-					<?php endforeach; ?>
-				<?php endif; ?>
-			</div>
-		<?php endforeach; ?>
-	<?php endif; ?>
-</div>
+    <div id="system-message-container">
+            <?php if (is_array($msgList) && !empty($msgList)) : ?>
+                            <?php foreach ($msgList as $type => $msgs) : ?>
+                                    <div id="login-status" class="<?php echo $type."-notice"; ?>">
+                                        <span class="login-status-icon"></span>
+                                        <?php // This requires JS so we should add it trough JS. Progressive enhancement and stuff. ?>
+                                        <a class="close" data-dismiss="alert">×</a>
+                                        <?php if (!empty($msgs)) : ?>
+                                                <div id="login-status-message">
+                                                        <?php foreach ($msgs as $msg) : ?>
+                                                            <p><?php echo $msg; ?></p>
+                                                        <?php endforeach; ?>
+                                                </div>
+                                        <?php endif; ?>
+                                    </div>
+                            <?php endforeach; ?>
+            <?php endif; ?>
+    </div>

@@ -46,3 +46,17 @@
 2014-08-11T18:26:38+00:00	INFO	cookiefailure	No se permite una contraseña vacía.
 2014-08-11T18:26:44+00:00	INFO	cookiefailure	No se permite una contraseña vacía.
 2014-08-11T18:29:50+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-16T11:22:40+00:00	INFO	cookiefailure	Usuario no existe
+2014-08-16T12:03:16+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-16T12:10:01+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-16T12:14:01+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-16T12:14:35+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-16T12:15:48+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-16T12:16:23+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-16T12:16:35+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-16T12:17:13+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-16T12:19:32+00:00	INFO	joomlafailure	Contraseña vacia no permitida.
+2014-08-19T17:36:32+00:00	INFO	joomlafailure	Usuario no existe
+2014-08-19T17:36:42+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-19T18:22:37+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-19T20:58:48+00:00	INFO	cookiefailure	Contraseña inválida
