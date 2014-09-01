@@ -6,15 +6,6 @@ Website: http://thevectorlab.net/
 */
 
 /* body styles */
-body {
-    color: #000;
-    font-family: 'Arial';
-    padding: 0px !important;
-    margin: 0px !important;
-    font-size:13px;
-    /*overflow-x: hidden ;*/
-    background:#404040 ;
-}
 
 @font-face {
     font-family: 'MyriadPro-Bold';
@@ -4359,3 +4350,7 @@ label
 	border-width: 0 5px 5px;
 	border-bottom-color: #000;
 }
+.btn{
+    padding: 5px 12px 5px 4px !important;
+}
+ 

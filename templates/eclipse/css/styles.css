@@ -39,7 +39,12 @@ h1, h2, h3, h4, h5, h6, #site-description,#navigation, #sidebar .module ul.menu 
 @media (max-width: 959px) {#wrapper{ padding:10px!important;}#header-wrap { padding: 10px!important;}}
 .count-1 { clear: both; margin-left: 0; }
 /* Body + Main Containers */
-body { color: #606060; font-weight: 400; background: #3e3e3e url(../images/bg.png) 0 0 repeat-x; font: 13px/25px Arial, Helvetica, sans-serif; nowhitespace: afterproperty; }
+body { background: none repeat scroll 0 0 #404040;
+    color: #000;
+    font-family: 'Arial';
+    font-size: 13px;
+    margin: 0 !important;
+    padding: 0 !important}
 #box-wrap { margin: 0 auto; padding:0; }
 #main-content { padding:15px 0;}
 #wrapper-w { background:#fff; position:relative}

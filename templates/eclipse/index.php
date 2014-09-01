@@ -1,5 +1,21 @@
 <?php
-$user =& JFactory::getUser();
+defined('_JEXEC') or die;
+// Getting params from template
+$params = JFactory::getApplication()->getTemplate(true)->params;
+
+$app = JFactory::getApplication();
+$doc = JFactory::getDocument();
+$this->language = $doc->language;
+$this->direction = $doc->direction;
+
+// Detecting Active Variables
+$option   = $app->input->getCmd('option', '');
+$view     = $app->input->getCmd('view', '');
+$layout   = $app->input->getCmd('layout', '');
+$task     = $app->input->getCmd('task', '');
+$itemid   = $app->input->getCmd('Itemid', '');
+$sitename = $app->getCfg('sitename');
+$user = JFactory::getUser();
 // almaceno el id en la variable llamada $tuid
 $doc = JFactory::getDocument();
 $this->language = $doc->language;
@@ -84,8 +100,6 @@ $span = "span12";
         <?php
 }else:{
 JHtml::_('bootstrap.framework');
-$doc->addScript('templates/beez3/js/template.js');
-$doc->addStyleSheet('templates/beez3/css/template.css');
 JHtml::_('bootstrap.loadCss', false, $this->direction);    
 
 ?>
@@ -237,7 +251,7 @@ $link_jquery= $this->baseurl.'/media/jui/js/jquery.min.js';
    ?><script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-1.8.3.min.js"></script>   
 <?php } ?>  
 <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.nicescroll.js"></script>
-<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/assets/jquery-slimscroll/jquery-ui-1.9.2.custom.min.js"></script>
+<!--<script type="text/javascript" src="<?php //echo $this->baseurl ?>/templates/<?php //echo $this->template ?>/assets/jquery-slimscroll/jquery-ui-1.9.2.custom.min.js"></script>-->
 <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/assets/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/assets/fullcalendar/fullcalendar/fullcalendar.min.js"></script>
 
