@@ -9,6 +9,7 @@
 
 defined('_JEXEC') or die;
 
+
 // Include the necessary file and create the resizer instance
 require_once JPATH_SITE . '/plugins/content/imgresizecache/resize.php';
 $resizer = new ImgResizeCache();
