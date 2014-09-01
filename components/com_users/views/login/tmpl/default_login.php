@@ -42,10 +42,8 @@ jQuery(document).ready(function() {
     <!--END SLIDE-IN ICONS-->
     <form action="<?php echo JRoute::_('index.php?option=com_users&task=user.login'); ?>" method="post" class="login_form form-validate form-horizontal" id="login_form" name="login_form">    
     <!--HEADER-->
-    <div class="header">
-    <!--TITLE--><h1>LIMMTO</h1><!--END TITLE-->
-    <!--DESCRIPTION--><span>Software de Mantenimiento</span><!--END DESCRIPTION-->
-    </div>
+    <div class="header"></div>
+    <div class="container-logo"></div>
     <!--END HEADER-->
 
     <!--CONTENT-->

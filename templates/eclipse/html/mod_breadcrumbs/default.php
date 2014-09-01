@@ -1,6 +1,6 @@
 <?php // no direct access
 defined('_JEXEC') or die('Restricted access'); ?>
-<div class="breadcrumbs">
+<div class="breadcrumb">
 <?php for ($i = 0; $i < $count; $i ++) :
 
 	// If not the last item in the breadcrumbs add the separator
@@ -10,7 +10,7 @@ defined('_JEXEC') or die('Restricted access'); ?>
 		} else {
 			echo $list[$i]->name;
 		}
-		echo '&nbsp;<span class="icon-angle-right"></span>&nbsp;';
+		echo '&nbsp;<span class="divider">&#47;</span>&nbsp;';
 	}  else if ($params->get('showLast', 1)) { // when $i == $count -1 and 'showLast' is true
 	    echo $list[$i]->name;
 	}

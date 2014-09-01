@@ -9,6 +9,9 @@
 
 defined('_JEXEC') or die;
 
+// Include the necessary file and create the resizer instance
+require_once JPATH_SITE . '/plugins/content/imgresizecache/resize.php';
+$resizer = new ImgResizeCache();
 ?>
 
 <fieldset id="users-profile-core">
@@ -16,6 +19,17 @@ defined('_JEXEC') or die;
 		<?php echo JText::_('COM_USERS_PROFILE_CORE_LEGEND'); ?>
 	</legend>
 	<dl class="dl-horizontal">
+                <dt>
+			<?php echo JText::_('COM_USERS_PROFILE_IMAGEN_LABEL'); ?>
+		</dt>
+		<dd>
+			<?php 
+                        if ($this->data->imagen){ 
+                            echo '<img src="'.htmlspecialchars($resizer->resize($this->data->imagen, array('w' => 200))).'" />';
+                        }else{
+                            echo '<img src="images/empleados/sin_foto.png">';
+                        }?>
+		</dd>
 		<dt>
 			<?php echo JText::_('COM_USERS_PROFILE_NAME_LABEL'); ?>
 		</dt>

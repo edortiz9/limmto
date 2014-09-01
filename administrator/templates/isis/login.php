@@ -73,6 +73,10 @@ $sitename = $app->get('sitename');
 				display: none;
 			}
 		<?php endif; ?>
+                #notify {
+                    margin: 40px auto !important;
+                    width: 305px !important;
+                }        
 	</style>
 	<!--[if lt IE 9]>
 		<script src="../media/jui/js/html5.js"></script>
@@ -81,13 +85,13 @@ $sitename = $app->get('sitename');
 
 <body class="site <?php echo $option . " view-" . $view . " layout-" . $layout . " task-" . $task . " itemid-" . $itemid . " ";?>">
 	<!-- Container -->
+        <jdoc:include type="message" />
 	<div class="container">
 		<div id="content">
 			<!-- Begin Content -->
 			<div id="element-box" class="login well">
 				<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template ?>/images/logo-lime-index.png" alt="LIMMTO Software de Mantenimiento" />
 				<hr />
-				<jdoc:include type="message" />
 				<jdoc:include type="component" />
 			</div>
 			<noscript>

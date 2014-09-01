@@ -69,6 +69,12 @@
 			size="30"
 			validate="equals"
 		/>
+                <field name="imagen" type="media"
+			description="COM_USERS_PROFILE_IMAGEN_DESC"
+			label="COM_USERS_PROFILE_IMAGEN_LABEL"
+			message="COM_USERS_PROFILE_IMAGEN_MESSAGE"
+                        directory="empleados"
+		/>
 	</fieldset>
 	
 	<!-- Used to get the two factor authentication configuration -->

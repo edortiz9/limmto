@@ -60,3 +60,27 @@
 2014-08-19T17:36:42+00:00	INFO	joomlafailure	Contraseña inválida
 2014-08-19T18:22:37+00:00	INFO	cookiefailure	Contraseña inválida
 2014-08-19T20:58:48+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-20T17:46:09+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-21T15:06:09+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-21T18:47:17+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-25T19:04:39+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-28T15:39:18+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-28T19:39:08+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-28T19:43:32+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-28T19:43:44+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-28T19:43:52+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-28T19:48:08+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-28T20:56:24+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-28T21:05:51+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-28T21:06:41+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-28T21:06:53+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-28T21:07:39+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-28T21:09:26+00:00	INFO	cookiefailure	Usuario no existe
+2014-08-28T21:10:41+00:00	INFO	cookiefailure	Usuario no existe
+2014-08-28T21:13:33+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-29T13:45:13+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-29T13:46:03+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-29T13:47:41+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-29T13:48:41+00:00	INFO	joomlafailure	Contraseña inválida
+2014-08-29T19:49:16+00:00	INFO	cookiefailure	Contraseña inválida
+2014-08-29T19:50:27+00:00	INFO	cookiefailure	Contraseña inválida

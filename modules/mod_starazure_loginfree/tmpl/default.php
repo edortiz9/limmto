@@ -54,10 +54,8 @@ jQuery(document).ready(function() {
 		</div>
 	<?php endif; ?>    
     <!--HEADER-->
-    <div class="header">
-    <!--TITLE--><h1><?php echo ($params->get('heading')) ?></h1><!--END TITLE-->
-    <!--DESCRIPTION--><span>Software de Mantenimiento</span><!--END DESCRIPTION-->
-    </div>
+    <div class="header"></div>
+    <div class="container-logo"></div>
     <!--END HEADER-->
 
     <!--CONTENT-->

@@ -15,9 +15,9 @@ defined('_JEXEC') or die('Restricted access');
 // Note. It is important to remove spaces between elements.
 ?>
 
-<div class="subnav<?php echo $class_sfx; ?>">
+<div id="sidebar" class="<?php echo $class_sfx; ?>">
 
-	<ul class="nav nav-pills menu<?php echo $class_sfx; ?>"
+	<ul class="sidebar-menu"
 		<?php
 		$tag = '';
 

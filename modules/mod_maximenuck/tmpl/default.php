@@ -22,7 +22,7 @@ $direction = $langdirection == 'rtl' ? 'right' : 'left';
 <?php if ($params->get('orientation', 'horizontal') == 'vertical') { ?>
 	<div class="maximenuckv<?php echo $maximenufixedclass ?>" id="<?php echo $params->get('menuid', 'maximenuck'); ?>" style="z-index:<?php echo $params->get('zindexlevel', '10'); ?>;">
 	<?php } else { ?>
-	    <div class="maximenuckh<?php echo $maximenufixedclass ?>" id="<?php echo $params->get('menuid', 'maximenuck'); ?>" style="z-index:<?php echo $params->get('zindexlevel', '10'); ?>;">
+	<div class="maximenuckh<?php echo $maximenufixedclass ?>" id="<?php echo $params->get('menuid', 'maximenuck'); ?>" style="z-index:<?php echo $params->get('zindexlevel', '10'); ?>;">
 		<?php } ?>
         <div class="maxiroundedleft"></div>
         <div class="maxiroundedcenter">

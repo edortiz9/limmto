@@ -122,7 +122,13 @@
 			<option value="1">JYES</option>
 			<option value="0">JNO</option>
 		</field>
-
+                <field name="imagen" type="media"
+			description="COM_USERS_PROFILE_IMAGEN_DESC"
+			field="imagen"
+			label="COM_USERS_PROFILE_IMAGEN_LABEL"
+			message="COM_USERS_PROFILE_IMAGEN_MESSAGE"
+			required="true"
+		/>
 		<field
 			name="id"
 			type="text"

@@ -16,7 +16,7 @@ jimport('joomla.filter.output');
 
 // Note. It is important to remove spaces between elements.
 $class = $item->anchor_css ? 'class="' . $item->anchor_css . '" ' : '';
-$title = $item->anchor_title ? 'title="' . $item->anchor_title . '" ' : '';
+$title = $item->anchor_title ? '<i class="' . $item->anchor_title . '"></i>' : '';
 
 if ($item->menu_image)
 {
@@ -33,10 +33,10 @@ $flink = JFilterOutput::ampReplace(htmlspecialchars($flink));
 if ($item->deeper)
 {
 	$class .= ' deeper dropdown';
-	?><a <?php echo $class; ?> href="#" data-toggle="dropdown"
-	<?php echo $title; ?>><?php
+	?><a <?php echo $class; ?> href="#" data-toggle="dropdown">
+	<?php echo $title; ?><?php
 		echo $linktype;
-	?> <b class="caret"></b></a><?php
+	?> <b class="arrow"></b></a><?php
 }
 else
 {
@@ -46,8 +46,8 @@ else
 		case 0:
 			?><a <?php echo $class; ?> href="<?php echo
 			$flink;
-	?>"
-	<?php echo $title; ?>><?php
+	?>">
+	<?php echo $title; ?><?php
 		echo $linktype;
 	?></a><?php
 			break;
@@ -56,7 +56,7 @@ else
 			?><a <?php echo $class; ?> href="<?php echo
 				$flink;
 			?>"
-	target="_blank" <?php echo $title; ?>><?php echo
+	target="_blank" ><?php echo $title; ?><?php echo
 		$linktype;
 	?></a><?php
 			break;
@@ -66,8 +66,8 @@ else
 			?><a <?php echo $class; ?> href="<?php echo
 			$flink;
 			?>"
-	onclick="window.open(this.href,'targetWindow','<?php echo $options; ?>');return false;"
-	<?php echo $title; ?>><?php echo
+	onclick="window.open(this.href,'targetWindow','<?php echo $options; ?>');return false;">
+	<?php echo $title; ?><?php echo
 		$linktype;
 	?></a><?php
 			break;

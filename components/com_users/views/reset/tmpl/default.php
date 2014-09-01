@@ -29,9 +29,8 @@ JHtml::_('bootstrap.tooltip');
     <!--END SLIDE-IN ICONS-->    
        	<form id="user-registration" action="<?php echo JRoute::_('index.php?option=com_users&task=reset.request'); ?>" method="post" id="login_form" name="login_form" class="login_form form-validate form-horizontal">
         <!--HEADER-->
-        <div class="header">
-        <!--DESCRIPTION--><span>Software de Mantenimiento</span><!--END DESCRIPTION-->
-        </div>
+        <div class="header"></div>
+        <div class="container-logo"></div>
         <!--END HEADER-->
         <!--CONTENT-->
         <div class="content">

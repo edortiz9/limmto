@@ -161,7 +161,13 @@ class JUser extends JObject
 	 * @since  3.2
 	 */
 	public $requireReset = null;
-
+        /**
+	 * IMAGEN DE PERFIL
+	 *
+	 * @var    medi
+	 * @since  3.2
+	 */
+	public $imagen = null;
 	/**
 	 * User parameters
 	 *

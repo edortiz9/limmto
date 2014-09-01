@@ -29,7 +29,7 @@ JHtml::_('behavior.keepalive');
 		<input type="submit" name="Submit" class="uk-button uk-button-primary" value="<?php echo JText::_('JLOGOUT'); ?>" />
 		<input type="hidden" name="option" value="com_users" />
 		<input type="hidden" name="task" value="user.logout" />
-		<input type="hidden" name="return" value="<?php echo $return; ?>" />
+		<input type="text" name="return" value="<?php echo $return; ?>" />
 		<?php echo JHtml::_('form.token'); ?>
 	</div>
 </form>

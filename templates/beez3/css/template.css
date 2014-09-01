@@ -7558,3 +7558,9 @@ html[dir="rtl"] #login-status-message {
     padding-left: 0;
     padding-right: 40px;
 }
+.container-logo {
+    background: url("../images/logo_limmto3.png") no-repeat scroll 30px 10px transparent;
+    margin: 0 auto;
+    padding: 80px 30px 0px 30px;
+    width: 250px;
+}

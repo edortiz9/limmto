@@ -7163,7 +7163,7 @@ body .navbar-fixed-top {
 }
 .logo {
 	width: 100%;
-	max-width: 143px;
+	max-width: 243px;
 	height: auto;
 }
 .page-title {
@@ -7998,7 +7998,6 @@ a.grid_true {
 /*Nuevo*/
 #notify {
     margin: 0px auto;
-    width: 365px;
 }
 #notify a {
     font-size: 12px;
@@ -8028,7 +8027,7 @@ a.grid_true {
 #failure a:hover {
     text-decoration: none;
 }
-.error-notice, .answers-notice, .warning-notice, .notice-notice, .success-notice, .message-notice #failure {
+.error-notice, .answers-notice, .warning-notice, .notice-notice, .success-notice, .message-notice, #failure {
     border-radius: 4px;
     box-shadow: 0 2px 2px #2b2b2b;
     font-size: 12px;
