@@ -80,8 +80,8 @@ JFactory::getDocument()->addScriptDeclaration($script);
 				document.id(name).addClass('invalid');
 			});
 
-			$('system-message').getElement('h4').innerHTML  = Joomla.JText._('ERROR');
-			$('system-message').getElement('div').innerHTML = Joomla.JText._('JGLOBAL_VALIDATION_FORM_FAILED');
+			//$('system-message').getElement('h4').innerHTML  = Joomla.JText._('ERROR');
+			$('login-status').getElement('p').innerHTML = Joomla.JText._('JGLOBAL_VALIDATION_FORM_FAILED');
 		}
 	}
 </script>

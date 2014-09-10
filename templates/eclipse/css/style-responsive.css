@@ -143,13 +143,13 @@
     #sidebar ul > li > a .arrow, #sidebar > ul > li > a .arrow.open {
         margin-right: 25px;
     }
-    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.dropdown-menu > li {
         width: 100%;
     }
-    #sidebar > ul > li > ul.sub > li > a {
+    #sidebar > ul > li > ul.dropdown-menu > li > a {
         background: transparent !important ;
     }
-    #sidebar > ul > li > ul.sub > li > a:hover {
+    #sidebar > ul > li > ul.dropdown-menu > li > a:hover {
         background: #4A8BC2 !important ;
     }
 
@@ -281,13 +281,13 @@
         margin-right: 25px;
         margin-top: -20px;
     }
-    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.dropdown-menu > li {
         width: 100%;
     }
-    #sidebar > ul > li > ul.sub > li > a {
+    #sidebar > ul > li > ul.dropdown-menu > li > a {
         background: transparent !important ;
     }
-    #sidebar > ul > li > ul.sub > li > a:hover {
+    #sidebar > ul > li > ul.dropdown-menu > li > a:hover {
         background: #4A8BC2 !important ;
     }
 
@@ -450,13 +450,13 @@
     #sidebar ul > li > a .arrow, #sidebar > ul > li > a .arrow.open {
         margin-right: 25px;
     }
-    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.dropdown-menu > li {
         width: 100%;
     }
-    #sidebar > ul > li > ul.sub > li > a {
+    #sidebar > ul > li > ul.dropdown-menu > li > a {
         background: transparent !important ;
     }
-    #sidebar > ul > li > ul.sub > li > a:hover {
+    #sidebar > ul > li > ul.dropdown-menu > li > a:hover {
         background: #4A8BC2 !important ;
     }
 	/* body */
@@ -863,13 +863,13 @@
         margin-right: 25px;
 
     }
-    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.dropdown-menu > li {
         width: 100%;
     }
-    #sidebar > ul > li > ul.sub > li > a {
+    #sidebar > ul > li > ul.dropdown-menu > li > a {
         background: transparent !important ;
     }
-    #sidebar > ul > li > ul.sub > li > a:hover {
+    #sidebar > ul > li > ul.dropdown-menu > li > a:hover {
         background: #4A8BC2 !important ;
     }
     #login .lock{
@@ -1017,13 +1017,13 @@
         margin-right: 25px;
 
     }
-    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.dropdown-menu > li {
         width: 100%;
     }
-    #sidebar > ul > li > ul.sub > li > a {
+    #sidebar > ul > li > ul.dropdown-menu > li > a {
         background: transparent !important ;
     }
-    #sidebar > ul > li > ul.sub > li > a:hover {
+    #sidebar > ul > li > ul.dropdown-menu > li > a:hover {
         background: #4A8BC2 !important ;
     }
 	#theme-change {
@@ -1167,13 +1167,13 @@
         margin-right: 25px;
 
     }
-    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.dropdown-menu > li {
         width: 100%;
     }
-    #sidebar > ul > li > ul.sub > li > a {
+    #sidebar > ul > li > ul.dropdown-menu > li > a {
         background: transparent !important ;
     }
-    #sidebar > ul > li > ul.sub > li > a:hover {
+    #sidebar > ul > li > ul.dropdown-menu > li > a:hover {
         background: #4A8BC2 !important ;
     }
 

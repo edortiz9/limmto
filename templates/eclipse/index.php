@@ -216,7 +216,7 @@ JHtml::_('bootstrap.tooltip');
             <!-- END PAGE HEADER-->
             <!-- BEGIN PAGE CONTENT-->
             <div class="row-fluid">
-                    <main id="content" role="main" class="<?php echo $span;?>">
+                    <main id="content" role="main">
                             <!-- Begin Content -->
                             <jdoc:include type="message" />
                             <jdoc:include type="modules" name="position-3" style="xhtml" />
@@ -258,7 +258,6 @@ $link_jquery= $this->baseurl.'/media/jui/js/jquery.min.js';
 
 <?php 
 $link_bootstrap= $this->baseurl.'/media/jui/js/bootstrap.min.js';
-echo $link_bootstrap;
  if (!isset($this->_scripts[$link_bootstrap])) { 
    ?><script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/assets/bootstrap/js/bootstrap.min.js"></script>
 <?php } ?>  

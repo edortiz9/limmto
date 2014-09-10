@@ -533,9 +533,7 @@ class FabrikViewListBase extends JViewLegacy
 
 		if (!$model->canView())
 		{
-			echo FText::_('JERROR_ALERTNOAUTHOR');
-
-			return false;
+                        JFactory::getApplication()->redirect('index.php', FText::_('JERROR_ALERTNOAUTHOR'), 'error');
 		}
 
 		return true;

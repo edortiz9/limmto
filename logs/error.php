@@ -84,3 +84,6 @@
 2014-08-29T13:48:41+00:00	INFO	joomlafailure	Contraseña inválida
 2014-08-29T19:49:16+00:00	INFO	cookiefailure	Contraseña inválida
 2014-08-29T19:50:27+00:00	INFO	cookiefailure	Contraseña inválida
+2014-09-02T08:51:48+00:00	INFO	cookiefailure	Contraseña inválida
+2014-09-04T17:04:54+00:00	INFO	cookiefailure	Contraseña inválida
+2014-09-10T12:36:09+00:00	INFO	cookiefailure	Contraseña inválida

@@ -2,9 +2,9 @@ var Script = function () {
 
 //    sidebar dropdown menu
 
-    jQuery('#sidebar .parent > a').click(function () {
+    jQuery('#sidebar .sub-menu > a').click(function () {
         var last = jQuery('.sub-menu.open', jQuery('#sidebar'));
-        //last.removeClass("open");
+        last.removeClass("open");
         jQuery('.arrow', last).removeClass("open");
         jQuery('.sub', last).slideUp(200);
         var sub = jQuery(this).next();

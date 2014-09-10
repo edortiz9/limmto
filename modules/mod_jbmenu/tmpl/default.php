@@ -31,7 +31,7 @@ defined('_JEXEC') or die('Restricted access');
 			<?php
 			foreach ($list as $i => &$item)
 			{
-				$class = 'item-' . $item->id;
+				$class = 'sub-menu item-' . $item->id;
 
 				if ($item->id == $active_id)
 				{
@@ -90,7 +90,7 @@ defined('_JEXEC') or die('Restricted access');
 				// The next item is deeper.
 				if ($item->deeper)
 				{
-					echo '<ul class="dropdown-menu">';
+					echo '<ul class="sub">';
 				}
 				// The next item is shallower.
 				elseif ($item->shallower)

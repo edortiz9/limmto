@@ -82,9 +82,8 @@ class FabrikViewFormBase extends JViewLegacy
 
 		if ($this->access == 0)
 		{
-			JError::raiseWarning(500, FText::_('JERROR_ALERTNOAUTHOR'));
-
-			return false;
+			//JError::raiseWarning(500, FText::_('JERROR_ALERTNOAUTHOR'));
+                        JFactory::getApplication()->redirect('index.php', FText::_('JERROR_ALERTNOAUTHOR'), 'error');
 		}
 
 		JDEBUG ? $profiler->mark('form view before join group ids got') : null;
